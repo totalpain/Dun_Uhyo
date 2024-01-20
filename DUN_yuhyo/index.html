@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- HTML!!-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="webui.js"></script>
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh;
+            flex-direction: column;
+        }
+        .button_run {
+            background-color: green;
+            color: white;
+            font-size: 18px;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Hello, World!</h1>
+        
+        
+        <select id="Pants_Deepdiver_Option1">
+            <option value="option1">75레벨 액티브 스킬 공격력 + 20%</option>
+            <option value="option2">75레벨 액티브 스킬 쿨타임 - 20%</option>
+            <option value="option3">75레벨 액티브 스킬 레벨+1</option>
+            <option value="option4">75레벨 스킬 공격력 +5%, 75레벨 스킬 범위 15% 증가</option>
+        </select>
+
+        <select id="Pants_Deepdiver_Option2">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+            <option value="option4">Option 4</option>
+        </select>
+
+          <button class="button_run" id="BTN000">유효인가요?</button>
+    </div>
+</body>
+</html>
