@@ -77,11 +77,13 @@ def button_event_isuhyo(e : webui.event):
     data = float(response.data)
     if data == 4:
         e.window.run("alert('오! 4유효네요! 축하드려요!')")
-    elif data >= 3.5:
+    elif data == 3.5:
         e.window.run("alert('3.5유효! 거의 종결입니다')")
-    elif data >= 3:
-        e.window.run("alert('아쉽지만 쓸 수는 있습니다')")
-    elif data >= 2:
+    elif data == 3:
+        e.window.run("alert('3유효입니다. 아쉽지만 쓸 수는 있습니다')")
+    elif data == 2.5:
+        e.window.run("alert('애매하네요... 2.5유효입니다')")
+    elif data == 2:
         e.window.run("alert('애매하네요... 2유효입니다')")
     else:
         e.window.run("alert('못써요...')")

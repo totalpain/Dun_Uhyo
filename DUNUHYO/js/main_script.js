@@ -87,6 +87,8 @@ function event_check_customisgood() {
     var custom_value3 = $('#Custom_Option3').find(":selected").val();
     var custom_value4 = $('#Custom_Option4').find(":selected").val();
     
+    var custom_where_selected = $('#Custom_where_id').find(":selected").val();
+
     var checksole = [custom_value1, custom_value2, custom_value3, custom_value4];
     var checkelemental= [custom_value1, custom_value2, custom_value3, custom_value4];
     var checksole_good = [custom_value1, custom_value2, custom_value3, custom_value4];
@@ -128,70 +130,95 @@ function event_check_customisgood() {
     }
 
     var total_point = 0;
+    var uhyo_whole_good;
+    var uhyo_sole_good;
+    var uhyo_elemental;
+    var uhyo_decent;
+    var uhyo_sole;
+
+    if (custom_where_selected === "upper" || custom_where_selected === "pants" || custom_where_selected === "shoulder" || custom_where_selected === "belt" || custom_where_selected === "shoes") {
+        uhyo_whole_good = 1;
+        uhyo_sole_good = 1;
+        uhyo_elemental = 1;
+        uhyo_decent = 0.5;
+    }
+    else if (custom_where_selected === "arm" || custom_where_selected === "neck" || custom_where_selected === "ring") {
+        uhyo_whole_good = 1;
+        uhyo_sole_good = 1;
+        uhyo_elemental = 1;
+        uhyo_decent = 0.5;
+    }
+    else if (custom_where_selected === "sub" || custom_where_selected === "stone" || custom_where_selected === "ear") {
+        uhyo_whole_good = 1;
+        uhyo_sole_good = 1;
+        uhyo_elemental = 0.5;
+        uhyo_decent = 0.5;
+    }
 
     if (custom_value1 == "good") {
-        total_point += 1;
-    }
-    else if (custom_value1 == "decent") {
-        total_point += 0.5;
-    }
-    else if (custom_value1 == "sole") {
-        total_point += 0.5;
-    }
-    else if (custom_value1 == "elemental") {
-        total_point += 0.5;
+        total_point += uhyo_whole_good;
     }
     else if (custom_value1 == "sole_good") {
-        total_point += 1;
+        total_point += uhyo_sole_good;
+    }
+    else if (custom_value1 == "decent") {
+        total_point += uhyo_decent;
+    }
+    else if (custom_value1 == "sole") {
+        total_point += uhyo_elemental;
+    }
+    else if (custom_value1 == "elemental") {
+        total_point += uhyo_elemental;
     }
 
     if (custom_value2 == "good") {
-        total_point += 1;
-    }
-    else if (custom_value2 == "decent") {
-        total_point += 0.5;
-    }
-    else if (custom_value2 == "sole") {
-        total_point += 0.5;
-    }
-    else if (custom_value2 == "elemental") {
-        total_point += 0.5;
+        total_point += uhyo_whole_good;
     }
     else if (custom_value2 == "sole_good") {
-        total_point += 1;
+        total_point += uhyo_sole_good;
+    }
+    else if (custom_value2 == "decent") {
+        total_point += uhyo_decent;
+    }
+    else if (custom_value2 == "sole") {
+        total_point += uhyo_elemental;
+    }
+    else if (custom_value2 == "elemental") {
+        total_point += uhyo_elemental;
     }
 
     if (custom_value3 == "good") {
-        total_point += 1;
-    }
-    else if (custom_value3 == "decent") {
-        total_point += 0.5;
-    }
-    else if (custom_value3 == "sole") {
-        total_point += 0.5;
-    }
-    else if (custom_value3 == "elemental") {
-        total_point += 0.5;
+        total_point += uhyo_whole_good;
     }
     else if (custom_value3 == "sole_good") {
-        total_point += 1;
+        total_point += uhyo_sole_good;
+    }
+    else if (custom_value3 == "decent") {
+        total_point += uhyo_decent;
+    }
+    else if (custom_value3 == "sole") {
+        total_point += uhyo_elemental;
+    }
+    else if (custom_value3 == "elemental") {
+        total_point += uhyo_elemental;
     }
 
     if (custom_value4 == "good") {
-        total_point += 1;
-    }
-    else if (custom_value4 == "decent") {
-        total_point += 0.5;
-    }
-    else if (custom_value4 == "sole") {
-        total_point += 0.5;
-    }
-    else if (custom_value4 == "elemental") {
-        total_point += 0.5;
+        total_point += uhyo_whole_good;
     }
     else if (custom_value4 == "sole_good") {
-        total_point += 1;
+        total_point += uhyo_sole_good;
     }
+    else if (custom_value4 == "decent") {
+        total_point += uhyo_decent;
+    }
+    else if (custom_value4 == "sole") {
+        total_point += uhyo_elemental;
+    }
+    else if (custom_value4 == "elemental") {
+        total_point += uhyo_elemental;
+    }
+
     
 
     if (issoledupe == true) {
