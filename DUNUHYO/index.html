@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!-- HTML!!-->
+<head>
+    <meta charset="UTF-8">
+    <title>딥다귀 유효 판독기</title>
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript" charset="utf-8" src="webui.js"></script>
+    <script type="text/javascript" charset="utf-8" src="./js/jquery-3.7.1.js"></script>
+    <script type="text/javascript" charset="utf-8" src="./js/main_script.js"></script>
+    <style>
+        .container {
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh;
+            flex-direction: column;
+        }
+        .button_run {
+            background-color: green;
+            color: white;
+            font-size: 18px;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        select {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>커스텀 유효 판독기</h1>       
+        <select title="타입" id="Custom_Type_id">
+            <option value='bad'>어떤 장비인가요?</option>
+            <option value='ent'>엔트 정령</option>
+            <option value='beril'>블루 베릴</option>
+            <option value='diver'>딥다이버</option>
+            <option value='forest'>숲속의 마녀</option>
+            <option value='pirate'>블루 파이렛</option>
+        </select> 
+        <select title="부위" id="Custom_where_id">
+            <option value='bad'>어떤 부위인가요?</option>
+            <option value='upper'>상의</option>
+            <option value='ear'>귀걸이</option>
+        </select> 
+        <br/>
+        <button class="button_run" id="BTN000">장비 옵션 불러오기</button>
+        <br/>   
+        <select title="1옵션" id="Custom_Option1">
+            <option value='bad'>옵션을 골라주세요</option>
+        </select>
+        <select title="2옵션" id="Custom_Option2">           
+            <option value='bad'>옵션을 골라주세요</option>
+        </select>    
+        <select title="3옵션" id="Custom_Option3">
+            <option value='bad'>옵션을 골라주세요</option>
+        </select>    
+        <select title="4옵션" id="Custom_Option4">
+            <option value='bad'>옵션을 골라주세요</option>
+        </select>    
+        <br/>
+        <button class="button_run" id="BTN001">유효인가요?</button>
+    </div>
+    <script>
+        let data_raw = [];
+        let custom_option_all = [];
+        get_options_from_json();
+    </script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+custom_where,custom_type,custom_value,custom_opt 
+upper,ent,good,HP가 40% 이하일 때 다음 효과 적용 - 스킬 공격력 8% 증
+upper,ent,good,80Lv 스킬 공격력 80% 증가 80Lv 스킬 쿨타임 15% 증가
+upper,ent,good,80Lv 스킬 공격력 80% 증가 95Lv 스킬 쿨타임 15% 증가
+upper,ent,good,가장 높은 속성 강화 50마다 아래의 효과 적용 (최대  4중첩) 모든 속도 +6% 피해증가
+upper,ent,decent,공격 시 HP 5% 회복
+upper,ent,decent,공격시 MP 5% 회복
+upper,forest,good,HP가 40% 이상일 때 스킬 공격력 3% 증가 가장 높은 상태 이상 데미지 증가 수치가 20% 미만일 때 스킬 공격력 4% 증가
+upper,forest,good,적 존재 시 1초마다 피해 증가 +370 (최대 10중첩)
+upper,forest,elemental,쿨타임 20초 이하 스킬 시전 시 20초 동안 화속성 강화 +25
+upper,forest,elemental,쿨타임 20초 이하 스킬 시전 시 20초 동안 암속성 강화 +25
+upper,forest,elemental,쿨타임 20초 이하 스킬 시전 시 20초 동안 수속성 강화 +25
+upper,forest,elemental,쿨타임 20초 이하 스킬 시전 시 20초 동안 명속성 강화 +25
+upper,beril,sole_good,출혈 데미지 +30% 물리/마법 피해 감소 -20%
+upper,beril,sole_good,감전 데미지 +30% 물리/마법 피해 감소 -20%
+upper,beril,sole_good,중독 데미지 +30% 물리/마법 피해 감소 -20%
+upper,beril,sole_good,화상 데미지 +30% 물리/마법 피해 감소 -20%
+upper,beril,good,공격 시 피해 증가 +185 (최대 20 중첩) - 피격으로 HP가 1% 이상 감소 시 중첩수 -4
+upper,beril,good,"5회 공격 시 30초 동안 80, 95Lv 액티브 스킬 Lv +3"
+upper,diver,good,100Lv 액티브 스킬 공격력 20% 증가 - 무색 큐브 스킬 공격력 2% 증가
+upper,diver,good,85Lv 액티브 스킬 공격력 20% 증가 - 무색 큐브 스킬 공격력 2% 증가
+upper,diver,good,95Lv 스킬 공격력 20% 증가
+upper,diver,good,95Lv 스킬 쿨타임 20% 감소
+upper,diver,good,"75, 80, 85Lv 스킬 공격력 5% 증가 95Lv 액티브 스킬 Lv +1"
+upper,diver,good,"5회 공격 시 30초 동안 스킬 공격력 6% 증가 (최대 1중첩, 쿨타임 0.5초"
+upper,pirate,good,공격 시 아래의 효과 적용 - 적의 무력화 게이지량 1 감소
+upper,pirate,good,무색 큐브 조각을 소모하지 않는 스킬 적중시 해당 스킬 공격력 1% 증가 (10중첩)
+upper,pirate,good,모든 TP 스킬 레벨 즈악 효과를 적용받고 있을 때 스킬 쿨타임 10% 감소
+upper,pirate,good,적의 무력화 게이지량이 10% 감소할때마다 피해 증가 (최대 10중첩)
+upper,pirate,good,스킬 시전 시 30초 동안 피해 증가 (최대 5중첩)
+upper,pirate,good,모든 속성 강화 +15 모든 속도 +10%
+upper,all,good,"30초 동안 아래의 효과 중 1개를 균등한 확률로 적용 (쿨타임 30초) - 피해증가, 물리/마법피해 감소 -피해증가, 물리/마법피해 감소"
+armour,all,good,"5회 공격 시 아래의 효과 적용 (최대 10중첩) 피해 증가, 물리/마법 방어력 -500"
+armour,all,good,모든 속성 강화 +20 모든 속성 저항 -5
+armour,all,elemental,화속성 강화 +20
+armour,all,elemental,명속성 강화 +20
+armour,all,elemental,수속성 강화 +20
+armour,all,elemental,암속성 강화 +20 
+armour,all,good,모든 속성 강화 +18
+armour,all,decent,80Lv 스킬 범위 15% 증가 80Lv 스킬 공격력 5% 증가
+armour,all,decent,75Lv 스킬 범위 15% 증가 75Lv 스킬 공격력 5% 증가
+armour,all,bad,70Lv 스킬 범위 15% 증가 70Lv 스킬 공격력 5% 증가
+armour,all,bad,70Lv 스킬 범위 15% 증가 70Lv 스킬 공격력 5% 증가
+armour,all,bad,60Lv 스킬 범위 15% 증가 60Lv 스킬 공격력 5% 증가
+armour,all,bad,45Lv 스킬 범위 15% 증가 45Lv 스킬 공격력 5% 증가
+armour,all,bad,40Lv 스킬 범위 15% 증가 40Lv 스킬 공격력 5% 증가
+armour,all,bad,35Lv 스킬 범위 15% 증가 35Lv 스킬 공격력 5% 증가
+armour,all,bad,30Lv 스킬 범위 15% 증가 30Lv 스킬 공격력 5% 증가
+armour,all,bad,25Lv 스킬 범위 15% 증가 25Lv 스킬 공격력 5% 증가
+armour,all,bad,20Lv 스킬 범위 15% 증가 20Lv 스킬 공격력 5% 증가
+armour,all,bad,물리/마법 크리티컬 히트 +7% 모든 상태 이상 내성 -10%
+armour,all,bad,물리/마법 크리티컬 히트 +5%
+armour,all,bad,모든 속성 저항 +8
+armour,all,bad,암속성 저항 +10
+armour,all,bad,화속성 저항 +10
+armour,all,bad,수속성 저항 +10
+armour,all,bad,명속성 저항 +10
+armour,all,bad,인벤토리 무게 한도 +5kg
+armour,all,bad,점프력 +20 이동속도 +4%
+armour,all,bad,HP 1분당 460 회복
+armour,all,bad,MP 1분당 348 회복
+armour,all,bad,회피율 +8%
+armour,all,bad,이동속도 +8%
+armour,all,bad,공격 속도 +8% 캐스팅 속도 +12%
+armour,all,bad,적중률 +10%
+armour,all,bad,물리/마법 방어력 +5%
+armour,all,bad,물리/마법 방어력 +7000
+armour,all,bad,HP MAX +600
+armour,all,bad,MP MAX +945
+armour,all,bad,HP MAX +5%
+armour,all,bad,MP MAX +5%
+ear,all,good,스킬 범위 증가 수치의 총합이 30% 이상일 때 스킬 공격력 6% 증가
+ear,all,good,무색 큐브 조각을 소모하지 않는 스킬 공격력 10% 증가
+ear,pirate,good,슈퍼 아머 상태 동안 피해 증가 +2519
+ear,pirate,good,"MP MAX가 150,000 이상일 때 스킬 공격력 5% 증가"
+ear,pirate,decent,"장비, 소모품, HP 회복 스킬로 인한 HP 회복량의 50% 만큼 보호막 회복"
+ear,pirate,good,"모든 TP 스킬 레벨 증가 효과를 적용받고 있을 때 스킬 공격력 6% 증가, 75 ~ 100Lv 스킬 공격력 6% 증가"
+ear,pirate,good,자신에게 수면 상태 이상이 부여될 때 10초 동안 스킬 공격력 6% 증가
+ear,pirate,bad,커맨드로 스킬 시전 시 30초 동안 슈퍼 아머 부여
+ear,diver,good,보스 몬스터 공격 시 스킬 공격력 6% 증가
+ear,diver,decent,무력화 게이지 감소량 +10% 자신이 부여하는 수면 지속 시간 +1초
+ear,diver,decent,무력화 게이지 감소량 +10% 자신이 부여하는 둔화 지속 시간 +1초
+ear,diver,decent,무력화 게이지 감소량 +10% 자신이 부여하는 구속 지속 시간 +1초
+ear,diver,decent,무력화 게이지 감소량 +10% 자신이 부여하는 혼란 지속 시간 +1초
+ear,beril,decent,정면 공격 시 스킬 공격력 8% 증가
+ear,beril,decent,백어택 공격 시 스킬 공격력 8% 증가
+ear,beril,decent,보스 몬스터 공격 시 20초 동안 감전 데미지 +20%
+ear,beril,decent,보스 몬스터 공격 시 20초 동안 명속성 강화 +35%
+ear,beril,decent,평타 마지막 공격 시 30초 동안 공격 속도 캐스팅 속도 +20%
+ear,beril,decent,기본기 숙련의 영향을 받는 공격 시 20초 동안 모든 속성 강화 35 증가
+ear,forest,decent,보스 몬스터 공격 시 30초 동안 모든 속성 강화 +25
+ear,forest,decent,60~80Lv 스킬 시전 시 60초 동안 95Lv 스킬 쿨타임 회복 속도 +10%
+ear,forest,decent,45~75Lv 스킬 시전 시 60초 동안 80Lv 스킬 쿨타임 회복 속도 +10%
+ear,forest,decent,석화 내성 +40% 가장 높은 상태 이상 내성 수치가 30% 이상일 때 물리/마법 피해 감소 +10%
+ear,forest,decent,적의 무력화 게이지량이 10% 감소할 때마다 40Lv 스킬 쿨타임 회복 속도 +3%
+ear,forest,decent,적의 무력화 게이지량이 10% 감소할 때마다 35Lv 스킬 쿨타임 회복 속도 +3%
+ear,ent,sole_good,가장 높은 상태 이상 내성 10% 마다 중독 데미지 +5%
+ear,ent,sole_good,가장 높은 상태 이상 내성 10% 마다 출혈 데미지 +5%
+ear,ent,sole_good,가장 높은 상태 이상 내성 10% 마다 감전 데미지 +5%
+ear,ent,sole_good,가장 높은 상태 이상 내성 10% 마다 화상 데미지 +5%
+ear,ent,sole_good,모든 속성 저항 수치의 합이 250 이상일 때 감전 데미지 +15%
+ear,all,good,출혈 상태 적 공격 시 스킬 공격력 5% 증가
+ear,all,good,중독 상태 적 공격 시 스킬 공격력 5% 증가
+ear,all,good,감전 상태 적 공격 시 스킬 공격력 5% 증가
+ear,all,good,화상 상태 적 공격 시 스킬 공격력 5% 증가
+ear,all,good,가장 높은 상태 이상 데미지 증가 수치가 20%  미만일 때 스킬 공격력 4% 증가
+ear,all,bad,무력화형 상태 이상이 부여된 적 공격시 30초 동안 감전 데미지 +15%
+ear,all,bad,무력화형 상태 이상이 부여된 적 공격시 30초 동안 화상 데미지 +15%
+ear,all,bad,무력화형 상태 이상이 부여된 적 공격시 30초 동안 출혈 데미지 +15%
+ear,all,bad,무력화형 상태 이상이 부여된 적 공격시 30초 동안 중독 데미지 +15%
+ear,all,bad,공격 시 적에게 10초 동안 저주 상태 이상 부여
+ear,all,bad,공격 시 적에게 10초 동안 혼란 상태 이상 부여
+ear,all,bad,공격 시 적에게 10초 동안 기절 상태 이상 부여
+ear,all,bad,공격 시 적에게 10초 동안 둔화 상태 이상 부여
+ear,all,bad,공격 시 적에게 10초 동안 암흑상태 이상 부여
+ear,all,bad,공격 시 적에게 10초 동안 수면 상태 이상 부여
+ear,all,bad,공격 시 적에게 10초 동안 석화 상태 이상 부여
+ear,all,bad,공격 시 적에게 10초 동안 구속 상태 이상 부여
+ear,all,bad,공격 시 적에게 10초 동안 빙결 상태 이상 부여
+ear,all,bad,공격 시 적에게 10초 동안 감전 상태 이상 부여
+ear,all,bad,공격 시 적에게 10초 동안 출혈 상태 이상 부여
+ear,all,bad,공격 시 적에게 10초 동안 중독 상태 이상 부여
+ear,all,bad,공격 시 적에게 10초 동안 화상 상태 이상 부여
+ear,all,bad,공격 시 20% 확률로 5초 동안 슈퍼 아머 부여
+ear,all,bad,구속 상태 적 공격 시 30초 동안 스킬 공격력 10% 증가
+ear,all,bad,저주 상태 적 공격 시 30초 동안 스킬 공격력 10% 증가
+ear,all,bad,암흑 상태 적 공격 시 30초 동안 스킬 공격력 10% 증가
+ear,all,bad,혼란 상태 적 공격 시 30초 동안 스킬 공격력 10% 증가
+ear,all,bad,둔화 상태 적 공격 시 30초 동안 스킬 공격력 10% 증가
+ear,all,bad,빙결 상태 적 공격 시 30초 동안 스킬 공격력 15% 증가
+ear,all,bad,석화 상태 적 공격 시 30초 동안 스킬 공격력 15% 증가
+ear,all,bad,수면 상태 적 공격 시 30초 동안 스킬 공격력 15% 증가
+ear,all,bad,기절 상태 적 공격 시 30초 동안 스킬 공격력 15% 증가
+ear,all,bad,스킬 공격력 2% 증가 기계 타입의 적 공격 시 스킬 공격력 5% 증가
+ear,all,bad,스킬 공격력 2% 증가 악마 타입의 적 공격 시 스킬 공격력 5% 증가
+ear,all,bad,스킬 공격력 2% 증가 정령 타입의 적 공격 시 스킬 공격력 5% 증가
+ear,all,bad,스킬 공격력 2% 증가 천사 타입의 적 공격 시 스킬 공격력 5% 증가
+ear,all,bad,스킬 공격력 2% 증가 용족 타입의 적 공격 시 스킬 공격력 5% 증가
+ear,all,good,모든 속성 강화 +20 모든 속성 저항 -5
+ear,all,elemental,화속성 강화 +20
+ear,all,elemental,명속성 강화 +20
+ear,all,elemental,수속성 강화 +20
+ear,all,elemental,암속성 강화 +20 
+ear,all,good,모든 속성 강화 +18
+ear,all,bad,물리/마법 크리티컬 히트 +7% 모든 상태 이상 내성 -10%
+ear,all,bad,물리/마법 크리티컬 히트 +5%
+ear,all,bad,모든 속성 저항 +8
+ear,all,bad,암속성 저항 +10
+ear,all,bad,화속성 저항 +10
+ear,all,bad,수속성 저항 +10
+ear,all,bad,명속성 저항 +10
+ear,all,bad,인벤토리 무게 한도 +5kg
+ear,all,bad,점프력 +20 이동속도 +4%
+ear,all,bad,HP 1분당 460 회복
+ear,all,bad,MP 1분당 348 회복
+ear,all,bad,회피율 +8%
+ear,all,bad,이동속도 +8%
+ear,all,bad,공격 속도 +8% 캐스팅 속도 +12%
+ear,all,bad,적중률 +10%
+ear,all,bad,물리/마법 방어력 +5%
+ear,all,bad,물리/마법 방어력 +7000
+ear,all,bad,HP MAX +600
+ear,all,bad,MP MAX +945
+ear,all,bad,HP MAX +5%
+ear,all,bad,MP MAX +5%
