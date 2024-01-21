@@ -20,11 +20,6 @@ Create by : totalpain (종합적고통) all rights reserved
 
 #definitions of variables#
 
-custom_where = ['upper','pants','shoulder','belt','shoes', 'arm','neck','ring','sub','stone','ear', 'armour_merged','acc_merged','spec_merged']
-custom_type = ['diver','ent','forest','beril','pirate']
-
-custom_value = ['good','decent','sole','bad']
-
 
 #definitions of functions#
 
